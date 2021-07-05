@@ -9,10 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-eureka-server7001 (1)" />
+        <module name="cloud-eureka-server7002" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-consumer-order80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka-server7001 (1)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
